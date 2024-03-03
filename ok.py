@@ -138,30 +138,7 @@ else:
     a = ltx
     tag = "\x1b[1;96mAM"
 #IPYTHONI
-os.system('espeak -a 300 " USERNAME,   AND,  PASSWORD,"')
 
-def _IPYTHONI_(u):
-        for e in u + "\n":sys.stdout.write(e);sys.stdout.flush();time.sleep(0.002)
-def clear():
-	os.system('clear')
-def back():
-	login()
-
-	import getpass
- 
-attemps = 0
-while attemps < 12345677901:
-    username = input(' \033[1;92mEnter Username: ')
-    password = input(' \033[1;91mEnter Password: ')
- 
-    if username == 'DSON' and password == '2005':
-        print(' \033[0;92mYou Have Successfully Logged in.')
-        break
-    else:
-        print(' Incorrect Pass Please Trying ')
-        attemps += 1
-        continue
-os.system('clear')
 #------------------[ MAIN ]-----------------#
 os.system('espeak -a 300 " Your,   Real,  Name,"')
 NameX =input('\033[1;97m[\033[1;92mâ€¢\033[1;97m]\033[1;97m WHAT IS YOUR NAME \033[1;97m:\33[1;32m')
