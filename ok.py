@@ -137,18 +137,6 @@ if ltx > 12:
 else:
     a = ltx
     tag = "\x1b[1;96mAM"
-#IPYTHONI
-os.system('espeak -a 300 " USERNAME,   AND,  PASSWORD,"')
-
-def _IPYTHONI_(u):
-        for e in u + "\n":sys.stdout.write(e);sys.stdout.flush();time.sleep(0.002)
-def clear():
-	os.system('clear')
-def back():
-	login()
-
-	import getpass
- 
 
 #------------------[ MAIN ]-----------------#
 os.system('espeak -a 300 " Your,   Real,  Name,"')
